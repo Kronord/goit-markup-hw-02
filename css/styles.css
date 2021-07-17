@@ -7,6 +7,7 @@
     --address-color: #ffffff60;
     --btn-hover: #188CE8;
     --slider-color: #2F303A;
+    --cards-section-color: #F5F4FA;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -109,6 +110,9 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--title-color);
+}
+.team-section {
+    background-color: var(--cards-section-color);
 }
 .member-discribe {
     text-align: center;
