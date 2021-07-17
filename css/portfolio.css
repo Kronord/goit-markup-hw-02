@@ -20,6 +20,7 @@ body {
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--title-color);
     text-decoration: none;
 }
@@ -31,6 +32,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
+    letter-spacing: 0.02em;
     color: var(--title-color);
     text-decoration: none;
 }
@@ -41,6 +43,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none;
 }
@@ -54,9 +57,11 @@ body {
 .btn {
     cursor: pointer;
     background-color: var(--btn-color);
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    letter-spacing: 0.03em;
 }
 .all {
     background-color: var(--primary-color);
@@ -71,11 +76,13 @@ body {
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .discribe {
     font-size: 16px;
     line-height: 1.9;
     color: var(--primary-text-color);
+    letter-spacing: 0.03em;
 }
 .footer-page {
     width: 1600px;
@@ -88,6 +95,7 @@ body {
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--secondary-color);
     text-decoration: none;
 }
@@ -95,12 +103,14 @@ body {
 .company-adress {
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
 
 .address-link {
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--address-color);
     text-decoration: none;
 }

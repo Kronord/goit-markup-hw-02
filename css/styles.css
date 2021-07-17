@@ -22,6 +22,7 @@ body {
     line-height: 1.2;
     color: var(--title-color);
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 .web-style {
     color: var(--primary-color);
@@ -32,6 +33,7 @@ body {
     line-height: 1.1;
     color: var(--title-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .studio {
     color: var(--primary-color);
@@ -42,6 +44,7 @@ body {
     line-height: 1.1;
     color: var(--primary-text-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .menu-link:hover,
 .menu-link:focus,
@@ -60,6 +63,8 @@ body {
     font-size: 44px;
     line-height: 1.4;
     color: var(--secondary-color);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .slider-btn {
     cursor: pointer;
@@ -67,6 +72,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.06em;
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -80,29 +86,35 @@ body {
     font-size: 36px;
     line-height: 1.2;
     color: var(--title-color);
+    letter-spacing: 0.03em;
 }
 .name {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.1;
     color: var(--title-color);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .discribe {
     font-size: 14px;
     line-height: 1.7;
-    color:var(--primary-text-color)
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color);
 }
 .member-name {
     text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 .member-discribe {
     text-align: center;
     font-size: 16px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 .footer-page {
@@ -115,17 +127,20 @@ body {
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     color:var(--secondary-color);
     text-decoration: none;
 }
 .company-adress {
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
 .address-link {
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--address-color);
     text-decoration: none;
 }
