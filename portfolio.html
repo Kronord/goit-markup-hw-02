@@ -5,101 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
     
-    <header class="head-page">
-        <nav class="nav-page">
-            <a href="#" lang="en" class="logo-page"><span class="web-style">Web</span>Studio</a>
-            <ul class="nav-menu">
-                <li class="menu-list"><a href="https://kronord.github.io/goit-markup-hw-02/index" class="menu-link">Студия</a></li>
-                <li class="menu-list"><a href="https://kronord.github.io/goit-markup-hw-02/portfolio" class="menu-link">Портфолио</a></li>
-                <li class="menu-list"><a href="#" class="menu-link">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="contacts">
-            <li class="contact-list"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-            <li class="contact-list"><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
-        </ul>
-    </header>
+   <header class="head-page">
+       <nav class="nav-page">
+           <a href="#" lang="en" class="logo"><span class="web-style">Web</span>Studio</a>
+           <ul class="nav-menu">
+               <li class="list"><a href="./index.html" class="menu-link">Студия</a></li>
+               <li class="list"><a href="./portfolio.html" class="menu-link">Портфолио</a></li>
+               <li class="list"><a href="#" class="menu-link">Контакты</a></li>
+           </ul>
+       </nav>
+       <ul class="contact-lists">
+           <li class="list"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+           <li class="list"><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+       </ul>
+   </header>
     
     <main class="main-page">
-        <section >
-            <h1>Наши продукты</h1>
-            <ul>
-                <li>
-                    <p>Все</p>
+        <section class="section">
+            <h1 class="title-page">Наши продукты</h1>
+            <ul class="nav-lists">
+                <li class=" nav-list">
+                    <button type="button" class="btn">Все</button>
                 </li>
-                <li>
-                    <p>Веб-сайты</p>
+                <li class=" nav-list">
+                    <button type="button" class="btn">Веб-сайты</button>
                 </li>
-                <li>
-                    <p>Приложения</p>
+                <li class=" nav-list">
+                    <button type="button" class="btn">Приложения</button>
                 </li>
-                <li>
-                    <p>Дизайн</p>
+                <li class=" nav-list">
+                    <button type="button" class="btn">Дизайн</button>
                 </li>
-                <li>
-                    <p>Маркетинг</p>
+                <li class=" nav-list">
+                    <button type="button" class="btn">Маркетинг</button>
                 </li>
             </ul>
-            <ul>
-                <li>
-                    <img src="./images/product-1.jpg" alt="Ноутбук">
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+            <ul class="products-lists">
+                <li class="product-list">
+                    <img src="./images/product-1.jpg" alt="Ноутбук" class="image">
+                    <h2 class="product-name">Технокряк</h2>
+                    <p class="discribe">Веб-сайт</p>
                 </li>
-                <li>
-                    <img src="./images/product-2.jpg" alt="Постер">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
+                <li class="product-list">
+                    <img src="./images/product-2.jpg" alt="Постер" class="image">
+                    <h2 class="product-name">Постер New Orlean vs Golden Star</h2>
+                    <p class="discribe">Дизайн</p>
                 </li>
-                <li>
-                    <img src="./images/product-3.jpg" alt="Ресторан">
-                    <h2>Ресторан Seafood</h2>
-                    <p>Приложение</p>
+                <li class="product-list">
+                    <img src="./images/product-3.jpg" alt="Ресторан" class="image">
+                    <h2 class="product-name">Ресторан Seafood</h2>
+                    <p class="discribe">Приложение</p>
                 </li>
-                <li>
-                    <img src="./images/product-4.jpg" alt="Наушники">
-                    <h2>Проект Prime</h2>
-                    <p>Маркетинг</p>
+                <li class="product-list">
+                    <img src="./images/product-4.jpg" alt="Наушники" class="image">
+                    <h2 class="product-name">Проект Prime</h2>
+                    <p class="discribe">Маркетинг</p>
                 </li>
-                <li>
-                    <img src="./images/product-5.jpg" alt="Коробки">
-                    <h2>Проект Boxes</h2>
-                    <p>Приложение</p>
+                <li class="product-list">
+                    <img src="./images/product-5.jpg" alt="Коробки" class="image">
+                    <h2 class="product-name">Проект Boxes</h2>
+                    <p class="discribe">Приложение</p>
                 </li>
-                <li>
-                    <img src="./images/product-6.jpg" alt="Монитор">
-                    <h2 lang="en">Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
+                <li class="product-list">
+                    <img src="./images/product-6.jpg" alt="Монитор" class="image">
+                    <h2 lang="en" class="product-name">Inspiration has no Borders</h2>
+                    <p class="discribe">Веб-сайт</p>
                 </li>
-                <li>
-                    <img src="./images/product-7.jpg" alt="Книга">
-                    <h2>Издание Limited Edition</h2>
-                    <p>Дизайн</p>
+                <li class="product-list">
+                    <img src="./images/product-7.jpg" alt="Книга" class="image">
+                    <h2 class="product-name">Издание Limited Edition</h2>
+                    <p class="discribe">Дизайн</p>
                 </li>
-                <li>
-                    <img src="./images/product-8.jpg" alt="Лейбл">
-                    <h2>Проект LAB</h2>
-                    <p>Маркетинг</p>
+                <li class="product-list">
+                    <img src="./images/product-8.jpg" alt="Лейбл" class="image">
+                    <h2 class="product-name">Проект LAB</h2>
+                    <p class="discribe">Маркетинг</p>
                 </li>
-                <li>
-                    <img src="./images/product-9.jpg" alt="Приложение">
-                    <h2 lang="en">Growing Business</h2>
-                    <p>Приложение</p>
+                <li class="product-list">
+                    <img src="./images/product-9.jpg" alt="Приложение" class="image">
+                    <h2 lang="en" class="product-name">Growing Business</h2>
+                    <p class="discribe">Приложение</p>
                 </li>
             </ul>
         </section>
     </main>
 
-    <footer>
-        <a href="#"><span>Web</span>Studio</a>
-        <address>
+    <footer class="footer-page">
+        <a href="#" class="logo"><span class="web-style">Web</span>Studio</a>
+        <address class="company-adress">
             г. Киев, пр-т Леси Украинки, 26
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="contact-lists">
+                <li class="list"><a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a></li>
+                <li class="list"><a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
