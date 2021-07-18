@@ -54,8 +54,6 @@ body {
     color: var(--primary-color);
 }
 .slider-section {
-    width: 1600px;
-    height: 600px;
     background-color: var(--slider-color);
 }
 .page-title {
@@ -123,8 +121,6 @@ body {
     color: var(--primary-text-color);
 }
 .footer-page {
-    width: 1600px;
-    height: 252px;
     background-color: var(--slider-color);
 }
 .footer-logo {

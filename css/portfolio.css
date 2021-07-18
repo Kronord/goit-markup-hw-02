@@ -86,8 +86,6 @@ body {
     letter-spacing: 0.03em;
 }
 .footer-page {
-    width: 1600px;
-    height: 252px;
     background-color: var(--slider-color);
 }
 
