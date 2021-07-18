@@ -56,6 +56,7 @@ body {
 }
 .btn {
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--btn-color);
     text-align: center;
     font-weight: 500;
