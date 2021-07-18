@@ -73,11 +73,15 @@ body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
+.product-link {
+    text-decoration: none;
+}
 .product-name {
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--title-color);
 }
 .discribe {
     font-size: 16px;
